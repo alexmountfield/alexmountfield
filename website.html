@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>alex m.</title>
+		<link href="C:\Users\alexm\Desktop\website\style.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Xanh Mono">
+	</head>
+<body>
+	<div>
+	<h1>alex m. <a onclick='showrites()'><i><span id="www">writes</span></i></a> & <a onclick="showsearch()"><i><span id="rrr">researches</i></a>.</h1>
+	</div>
+	<div id="writer" style="display:none"><span id="www">
+	<div class="object"><object data="demon.svg" width="100" height="100"></object></div>
+	<h2>selected work</h2>
+		<h4>online</h4>
+		<ul>
+		<li><a href="http://www.waxnine.com/journal/alex-mountfield/" target=_blank rel=nofollow>Wax Nine</a> no. 39
+		</ul>
+		<h4>print</h4>
+		<ul>
+		<li><a href="https://violetindigoblueetc.bigcartel.com/product/vibe-folio-series-2-presale" target=_blank rel=nofollow>Violet, Indigo, Blue, Etc.</a> - <i>VAULT</i>; <i>IDYLL</i>
+		<li><a href="https://sweettoothpoetry.bigcartel.com/" target=_blank rel=nofollow>Sweet Tooth</a> no. 1
+		</ul>
+	</span></div>
+	<div id="researcher" style="display:none"><span id="rrr">
+	<h2>independent</h2>
+		<ul>
+			<li><b>Harm Reduction:</b> I work with an international cohort of organizations to develop evidence-based approaches to harm reduction for trans people. My research process involves documenting, monitoring, and contributing to an emerging community of practice that provides assistance, aid, and information to trans people who self-medicate (i.e. are undergoing gender-affirming hormone therapy without professional medical oversight). I'm also interested in harm reduction approaches to other sources of health risk that pluralistically and disproportionately affect trans communities – including drug use, chemsex, HIV/AIDS, STIs, sex work, and intimate partner violence.<br><br>
+			
+			<i>If you are a medical professional who works in trans healthcare and would be willing to speak to me on background, please email TowardsHarmReduction@protonmail.com.</i><br><br></li>
+		</ul>
+	<div class="object"><object data="bird.svg" width="100" height="100"></object></div>
+	<h2>institutional</h2>
+	<h4>current</h4>
+		<ul><li><b>Research Associate</b> at <a href="https://www.strategy.org" target=_blank rel=nofollow>Strategy for Humanity</a></li></ul>
+	<h4>former</h4>
+		<ul><li><b>Research Intern</b> at <a href="https://www.gov.ie/en/campaigns/5be80-research-evaluation-unit/" target=_blank rel=nofollow>DCEDIY REU</a></li>
+		<li><b>B.A. in Political Science & Sociology</b> at <a href="https://www.tcd.ie/ssp/" target=_blank rel=nofollow>Trinity College Dublin</a></li></ul>
+	</span>
+	</div>
+<script>
+function showrites() {
+  var x = document.getElementById("writer");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("researcher");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+function showsearch() {
+  var x = document.getElementById("researcher");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("writer");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
