@@ -81,11 +81,11 @@ a {
 }
 
 ::selection {
-  color: #8B0000;
-  background: #F5DEB3;
+  color: darkred;
+  background: wheat;
 }
 
 ::-moz-selection {
-  color: #8B0000;
-  background: #F5DEB3;
+  color: darkred;
+  background: wheat;
 }
