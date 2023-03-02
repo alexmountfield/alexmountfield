@@ -79,3 +79,7 @@ a {
   align-items: center;
   height: 115px;
 }
+
+::selection {
+  color: #8B0000;
+  background: #F5DEB3;
