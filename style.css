@@ -61,6 +61,10 @@ h1 {
 	margin-left: 2.5%;
 }
 
+#clicky {
+	cursor: pointer;
+}
+
 #www {
 	color: #6F411B;
 }
