@@ -5,10 +5,35 @@
 		<meta name="author" content="Alex Mountfield">
 		<meta name="description" content="alex mountfield writes and researches.">
 		
-		<title>alex mountfield</title>
+		
 		<link href="style.css" rel="stylesheet" type="text/css" media="all">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Xanh Mono">
 		<link href="camera.svg" rel="icon"/>
+		
+		<title>alex mountfield</title>
+		<script>
+			var titles = 	["alex mountfield  🗝️", 
+							"alex mountfield  🕰️", 
+							"alex mountfield  🧿", 
+							"alex mountfield  🔮", 
+							"alex mountfield  🕳️", 
+							"alex mountfield  🚪", 
+							"alex mountfield  🗡️", 
+							"alex mountfield  ✨", 
+							"alex mountfield  💫"];
+			var index = 0;
+
+			function changeTitle() {
+				document.title = titles[index];
+				index++; //
+					if (index == titles.length) {
+						index = 0;
+						}
+				setTimeout(changeTitle, 250);
+			}
+
+			changeTitle(); 
+		</script>
 	</head>
 <body>
 	<h1>alex m. 
