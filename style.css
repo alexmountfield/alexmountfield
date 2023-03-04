@@ -1,14 +1,12 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 4.5%;
+	padding-top: 3.5%;
 	padding-left: 4.5%;
-	font-family: "Xanh Mono"
 	background-color: #fff;
 	color: #111;
 	max-width: 1400px;
 	display: block;
-	margin: 8px;
 	text-align: justify;
     text-justify: auto;
 }
@@ -50,7 +48,7 @@ body {
 
 h1 {
 	text-align: left;
-	font-size: 50px;
+	font-size: 3.5em;
 }
 
 #writer {
@@ -78,10 +76,11 @@ a {
 }
 
 .object {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 115px;
+	display: flex;
+	margin-left: -13.5%;
+	justify-content: center;
+	align-items: center;
+	height: 115px;
 }
 
 ::selection {
