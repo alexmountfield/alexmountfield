@@ -11,29 +11,9 @@
 		<link href="camera.svg" rel="icon"/>
 		
 		<title>alex mountfield</title>
-		<script>
-			var titles = 	["alex mountfield  🗝️", 
-							"alex mountfield  🕰️", 
-							"alex mountfield  🧿", 
-							"alex mountfield  🔮", 
-							"alex mountfield  🕳️", 
-							"alex mountfield  🚪", 
-							"alex mountfield  🗡️", 
-							"alex mountfield  ✨", 
-							"alex mountfield  💫"];
-			var index = 0;
-
-			function changeTitle() {
-				document.title = titles[index];
-				index++; //
-					if (index == titles.length) {
-						index = 0;
-						}
-				setTimeout(changeTitle, 250);
-			}
-
-			changeTitle(); 
-		</script>
+		
+		<script type="text/javascript" src="title.js"></script>
+		<script type="text/javascript" src="showing.js"></script>
 	</head>
 <body>
 	<h1>alex m. 
@@ -63,35 +43,5 @@
 		<li><b>B.A. in Political Science & Sociology</b> at <a href="https://www.tcd.ie/ssp/" target=_blank rel=nofollow>Trinity College Dublin</a></li></ul>
 	</span>
 	</div>
-<script>
-function showrites() {
-  var x = document.getElementById("writer");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-  var x = document.getElementById("researcher");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "none";
-  }
-}
-function showsearch() {
-  var x = document.getElementById("researcher");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-  var x = document.getElementById("writer");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 </body>
 </html>
