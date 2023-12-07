@@ -1,3 +1,0 @@
-- The source code for this website is dedicated to the [public domain](https://creativecommons.org/publicdomain/zero/1.0/).
-- All artwork and images are licensed [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
-- This website uses a modified version of ['nutshell'](https://github.com/ncase/nutshell) js library by nicky case.
