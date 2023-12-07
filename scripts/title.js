@@ -1,12 +1,12 @@
-var titles = 	["alex mountfield  🗝️", 
-							"alex mountfield  🕰️", 
-							"alex mountfield  🧿", 
-							"alex mountfield  🔮", 
-							"alex mountfield  🕳️", 
-							"alex mountfield  🚪", 
-							"alex mountfield  🗡️", 
-							"alex mountfield  ✨", 
-							"alex mountfield  💫"];
+var titles = 	["alex m  🗝️", 
+							"alex m  🕰️", 
+							"alex m  🧿", 
+							"alex m  🔮", 
+							"alex m  🕳️", 
+							"alex m  🚪", 
+							"alex m  🗡️", 
+							"alex m  ✨", 
+							"alex m  💫"];
 			var index = 0;
 
 			function changeTitle() {

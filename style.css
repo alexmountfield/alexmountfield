@@ -5,10 +5,7 @@ body {
 	padding-left: 4.5%;
 	background-color: #fff;
 	color: #111;
-	max-width: 1400px;
-	display: block;
-	text-align: justify;
-    text-justify: auto;
+	max-width: 1000px;
 }
 
         /* Media Query for Mobile Devices */
@@ -35,53 +32,16 @@ body {
         /* Media Query for Laptops and Desktops */
         @media (min-width: 1025px) and (max-width: 1280px){
             body {
-                width: 50%;
+                width: 70%;
             }
         }
           
         /* Media Query for Large screens */
         @media (min-width: 1281px) {
             body {
-                width: 50%;
+                width: 70%;
             }
         }
-
-h1 {
-	text-align: left;
-	font-size: 3.5em;
-}
-
-#writer {
-	margin-left: 2.5%;
-}
-
-#researcher {
-	margin-left: 2.5%;
-}
-
-#clicky {
-	cursor: pointer;
-}
-
-#www {
-	color: #6F411B;
-}
-
-#rrr {
-	color: #1B486F;
-}
-
-a {
-	color: inherit;
-}
-
-.object {
-	display: flex;
-	margin-left: -13.5%;
-	justify-content: center;
-	align-items: center;
-	height: 115px;
-}
 
 ::selection {
   color: darkred;
@@ -93,10 +53,25 @@ a {
   background: wheat;
 }
 
-#icon {
-	margin-left: -13.5%;
-	justify-content: center;
-	align-items: center;
-	width: 20px;
-	height: 20px;
+div {
+	display: block;
+}
+
+.section {
+	margin: 1em;
+}
+
+span {
+	font-family: monospace;
+	font-size: 1em
+}
+
+img {
+	float: left;
+	height: 2em;
+	margin-right: 1em
+}
+
+.shellnut {
+	font-size: 1.5em; 
 }
